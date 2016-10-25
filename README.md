@@ -17,6 +17,6 @@ $SSH_PORT$=22$
 NOTES
 =====
 
-The check-linux-ssh scripts should be at least in version
-086e5bbc7e5435a4980c60532c9fb4fc57ebe40f (git commit, PR 53) in order to be
-allow to use the '-e' option on the check_ro_filesystem_by_ssh check.
+* The check-linux-ssh scripts should be at least in version ```086e5bbc7e5435a4980c60532c9fb4fc57ebe40f``` (git commit, PR 53) in order to be allow to use the '-e' option on the check_ro_filesystem_by_ssh check.
+
+* Your ssh shinken user should be member of the docker group
