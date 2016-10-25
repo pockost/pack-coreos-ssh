@@ -7,10 +7,12 @@ Based on https://github.com/naparuba/check-linux-by-ssh and https://github.com/n
 
 For Authorized_keys, you have to edit the /etc/shinken/resource.d/ssh.cfg file if need:
 
+```
 $SSH_KEY$=~/.ssh/id_rsa
 $SSH_KEY_PASSPHRASE$=''
 $SSH_USER$=shinken
-$SSH_PORT$=22
+$SSH_PORT$=22$
+```
 
 NOTES
 =====
