@@ -51,7 +51,7 @@ def get_mpstat(client):
     #Average:       3    2.00    0.00    1.00    0.00    0.00    0.00    0.00    0.00   97.00
 
     # Beware of the export!
-    _, stdout, _ = client.exec_command('docker run --rm -it -e LC_LANG=C  pockost/sysstat mpstat -P ALL 1 1')
+    _, stdout, _ = client.exec_command('docker run --rm -e LC_LANG=C  pockost/sysstat mpstat -P ALL 1 1')
     stats = {}
 
     pos = {'%usr':-1, '%nice':-1, '%sys':-1, '%iowait':-1, '%irq':-1, '%soft':-1, '%steal':-1, '%guest':-1, '%idle':-1}
