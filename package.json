@@ -1,0 +1,27 @@
+{
+   "name": "coreos-ssh",
+   "types": ["pack"],
+   "version": "2.0",
+   "homepage": "https://github.com/pockost/pack-coreos-ssh",
+   "author": "Romain THERRAT",
+   "description": "CoreOS checks based on SSH without any script on distant server. This depend on pack linux-ssh",
+   "contributors": [
+      {
+         "name": "Romain THERRAT",
+         "email": "romain@pockost.com"
+      }
+
+   ],
+   "repository": "https://github.com/pockost/pack-coreos-ssh",
+   "keywords": [
+      "pack",
+      "coreos",
+      "docker",
+      "linux",
+      "ssh"
+   ],
+   "dependencies": {
+      "shinken": ">=1.4"
+   },
+   "license": "AGPL"
+}
